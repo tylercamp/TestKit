@@ -1,4 +1,12 @@
 
+//
+//  TDK.cpp
+//  GameEngineProgramming
+//
+//  Created by Tyler Camp on 00/00/00.
+//  Copyright 2012 Tyler Camp. All rights reserved.
+//
+
 #include <Tests/TDK/TDK.h>
 #include <Console.h>
 #include <sstream>

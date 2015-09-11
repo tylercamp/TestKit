@@ -6,7 +6,7 @@
 void RunTests( )
 {
 #ifdef TESTS_ENABLED
-	TestManager::AutoCatchExceptions( false );
+	TestManager::AutoCatchExceptions( true );
 	TestManager::UseSmartDebugOnAssert( true );
 	TestManager::RunTests( );
 #endif

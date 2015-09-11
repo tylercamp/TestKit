@@ -23,7 +23,5 @@ Test( ResourceManager_ResourceIsLoaded )
 
 	ResourceManager * rm = ResourceManager::Instance( );
 
-	TestFailNotImplemented( );
-
 	TestAssertIsTrue( rm->ResourceIsLoaded( resourceName ) );
 }

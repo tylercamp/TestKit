@@ -22,7 +22,6 @@
 #define InvokeFailure(failMessage)					\
 	if( TestManager::UseSmartDebugOnAssert( ) )	 {	\
 		InvokeDebugPoint( );						\
-		return;										\
 	}												\
 	throw std::logic_error( failMessage );			\
 	return;
